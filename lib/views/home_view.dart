@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hearts_game_sort_of/constants.dart';
 import 'package:hearts_game_sort_of/panels/hearts_dealer_panel.dart';
 import 'package:hearts_game_sort_of/panels/hearts_player_panel.dart';
-import 'package:hearts_game_sort_of/labels/human_label.dart';
+import 'package:hearts_game_sort_of/views/side_view.dart';
 
 class HomeView extends StatefulWidget {
   @override
@@ -52,13 +52,6 @@ class _HomeViewState extends State<HomeView> {
                     ),
                   ],
                 ),
-              ),
-              SizedBox(
-                width: 20.0,
-              ),
-              HumanLabel(
-                flex: 4,
-                text: 'Side panel',
               ),
             ],
           ),
