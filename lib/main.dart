@@ -7,7 +7,7 @@ import 'views/home_view.dart';
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   if (Platform.isWindows || Platform.isLinux || Platform.isMacOS) {
-    setWindowTitle('Assignment 3');
+    setWindowTitle('Hearts Game');
     setWindowMinSize(const Size(500, 1000));
     setWindowMaxSize(const Size(500, 1000));
   }

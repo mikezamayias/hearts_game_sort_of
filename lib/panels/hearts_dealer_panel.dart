@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hearts_game_sort_of/constants.dart';
 import 'package:hearts_game_sort_of/labels/human_label.dart';
-import 'package:hearts_game_sort_of/labels/button_label.dart';
+import 'package:hearts_game_sort_of/widgets/custom_button.dart';
 
 class HeartsDealerPanel extends StatelessWidget {
   const HeartsDealerPanel({
@@ -39,30 +39,34 @@ class HeartsDealerPanel extends StatelessWidget {
               SizedBox(
                 height: 20,
               ),
-              ButtonLabel(
+              CustomButton(
                 flex: 1,
                 text: "Introduce",
+                backgroundColor: backgroundColor,
               ),
               SizedBox(
                 height: 20,
               ),
-              ButtonLabel(
+              CustomButton(
                 flex: 1,
                 text: "Show deck",
+                backgroundColor: backgroundColor,
               ),
               SizedBox(
                 height: 20,
               ),
-              ButtonLabel(
+              CustomButton(
                 flex: 1,
                 text: "Deal",
+                backgroundColor: backgroundColor,
               ),
               SizedBox(
                 height: 20,
               ),
-              ButtonLabel(
+              CustomButton(
                 flex: 1,
                 text: "Decide winner",
+                backgroundColor: backgroundColor,
               ),
             ],
           ),

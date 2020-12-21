@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:hearts_game_sort_of/labels/button_label.dart';
 import 'package:hearts_game_sort_of/labels/human_label.dart';
 import 'package:hearts_game_sort_of/panels/base_panel.dart';
+import 'package:hearts_game_sort_of/widgets/custom_button.dart';
 
 class HeartsPlayerPanel extends StatelessWidget {
   const HeartsPlayerPanel({
@@ -38,16 +38,18 @@ class HeartsPlayerPanel extends StatelessWidget {
               mainAxisSize: MainAxisSize.max,
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
-                ButtonLabel(
+                CustomButton(
                   flex: 1,
                   text: "Introduce",
+                  backgroundColor: backgroundColor,
                 ),
                 SizedBox(
                   height: 20.0,
                 ),
-                ButtonLabel(
+                CustomButton(
                   flex: 1,
                   text: "Show hand",
+                  backgroundColor: backgroundColor,
                 ),
               ],
             ),
